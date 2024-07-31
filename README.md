@@ -4,10 +4,11 @@
 
 <h1>weather_app_</h1>
 
-Overview
+<h3>Overview</h3>
 weather_app_ is a React-based application designed to provide users with weather information and forecasts. This application includes various components such as Home, Summary, Header, and Footer, along with routes for different weather categories and blog posts.
 
-Features
+<h3>Features</h3>
+
 Home Page: Displays the main content and navigation.
 Weather Summary: Shows detailed weather information for selected locations.
 Header and Footer: Provides consistent navigation and information across all pages.
@@ -19,7 +20,7 @@ React Router
 Bootstrap
 CSS
 
-Method 1
+<h2>Method 1</h2>
 
 Installation
 To run this project locally, follow these steps:
@@ -42,7 +43,12 @@ Copy code
 npm start
 The application will be available at http://localhost:3000.
 
-Method 2
+<h2>Method 2</h2>
+<p>this method is for the linux like Ec2 ubuntu Machine</p>
+
+if you use jenkins the you need to integrate the jenkins or github or you can maualy add the code folder
+
+the you go inside the code folder the run these command
 
 sudo apt update
 sudo apt install nodejs
