@@ -88,7 +88,8 @@ function App() {
     const date = new Date();
 
     return (
-        <div className="w-full h-screen bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-no-repeat bg-cover bg-center flex flex-col items-center justify-center px-4 lg:px-0">
+       <div className="w-full h-screen bg-gradient-to-r from-green-500 via-violet-500 to-blue-500 bg-no-repeat bg-cover bg-center flex flex-col items-center justify-center px-4 lg:px-0">
+        <div className="items-center justify-center"><h1 className="bg-transparent outline-none placeholder:text-white text-white text-[50px] font-light pl-6 h-full my-5">Weather Status</h1></div>
             {error && (
                 <div className="bg-red-600 text-white p-4 rounded-full mb-4">
                     {error}
